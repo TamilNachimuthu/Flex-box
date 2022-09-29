@@ -1,0 +1,117 @@
+.header{
+    background-color: blue;
+}
+h5{
+    margin-bottom: 0;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.flexboxcol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contentdiv{
+    background-color: #565656;
+    color: white;
+    width: 265px;
+    height: 170px;
+}
+.spacebetween{
+    display: flex;
+    justify-content: space-between;
+}
+.aligncenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alignend{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.alignstart{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flexboxwrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.flexboxwrapreverce{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    gap: 10px;
+}
+.flexboxrevece{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+.flexboxcolreverce{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+.alignitemcenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.flexgrow{
+    display: flex;
+    gap: 10px;
+}
+.textitem1{
+    background-color: #565656;
+    color: white;
+    flex-grow: 1;
+}
+.textitem2{
+    flex-grow: 4;
+    background-color: #565656;
+    color: white;
+}
+.textitem3{
+    flex-grow: 1;
+    background-color: #565656;
+    color: white;
+}
+.textitem4{
+    flex-grow: 1;
+    background-color: #565656;
+    color: white;
+}
+.flexshring{
+    display: flex;
+    gap: 10px;
+    width: calc(100% - 100px);
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+}
+.textitemshring{
+    background-color: #565656; 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+.textitemshring div:nth-of-type(2) {
+    flex-shrink: 5;
+}
+.flexorder{
+    display: flex;
+}
+.textitemorder{
+    order: 5;
+}
+
